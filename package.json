@@ -24,6 +24,7 @@
     ]
   },
   "scripts": {
+    "protoc": "sudo apt install -y protobuf-compiler",
     "bootstrap": "lerna bootstrap",
     "dev": "lerna run dev --parallel",
     "clean": "lerna run clean && rm -rf node_modules && yarn clean:watchman",
